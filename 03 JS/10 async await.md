@@ -1,0 +1,1 @@
+理解 JavaScript 的 async/await <https://segmentfault.com/a/1190000007535316>

@@ -83,4 +83,4 @@ Promise.race([promise1, promise2]).then(function (value) {
 ```
 
 **参考链接：**
-[手写源码系列二——Promise 相关方法]([https://zhuanlan.zhihu.com/p/69457730](https://zhuanlan.zhihu.com/p/69457730))
+[手写源码系列二——Promise 相关方法](<[https://zhuanlan.zhihu.com/p/69457730](https://zhuanlan.zhihu.com/p/69457730)>)
