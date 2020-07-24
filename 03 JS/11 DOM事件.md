@@ -14,4 +14,4 @@ DOM1标准制定中没有涉及事件相关的东西
 ## 6. Event常见应用
 `stopPropagation`、`preventDefault`、`target`、`currentTarget`、`stopImmediatePropagation`
 ## 7. 自定义事件
-![自定义事件](./asset/自定义事件.png)
+![自定义事件](./asset/11%20自定义事件.png)
