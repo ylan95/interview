@@ -27,6 +27,7 @@
   - [09 promise](./03 JS/09 promise.md)
   - [10 async await](./03 JS/10 async await.md)
   - [11 DOM事件](./03 JS/11 DOM事件.md)
+  - [12 数据类型及类型转换](./03 JS/12 数据类型及类型转换.md)
 - [04 http](_)
   - [01 HTTP基本概念及特点](./04 HTTP/01 HTTP基本概念及特点.md)
   - [02 HTTP报文](./04 HTTP/02 HTTP报文.md)
