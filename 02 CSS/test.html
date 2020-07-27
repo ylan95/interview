@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+</head>
+<body>
+  <div class="dv1 clearfix">
+    <div class="dv11 ">#######################################</div>
+    <!-- <section>456</section> -->
+  </div>
+  
+  <div class="dv2">789</div>
+  <style>
+    .dv1{
+      background-color: dark;
+    }
+    .clearfix::before,
+.clearfix::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+    .dv11{
+      width: 100px;
+      word-break: break-all;
+      float: left;
+      background-color: red;
+    }
+    section{
+      background-color: green;
+      clear: both;
+    }
+    .dv2{
+      background-color: blue;
+    }
+  </style>
+</body>
+</html>

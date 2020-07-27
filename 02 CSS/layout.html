@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>三栏布局</title>
+  <style>
+    .layout {
+
+      margin-bottom: 10px;
+    }
+
+    .layout article {
+      height: 100px;
+    }
+
+    .layout article.left {
+      background-color: red;
+    }
+
+    .layout article.center {
+      background-color: blue;
+    }
+
+    .layout article.right {
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <section class="layout A">
+      <h3>1、利用浮动，使元素自适应居中</h3>
+      <style>
+        .A .left {
+          float: left;
+          width: 300px;
+        }
+
+        .A .right {
+          float: right;
+          width: 300px;
+        }
+      </style>
+      <article class="left">left</article>
+      <article class="right">right</article>
+      <article class="center">center</article>
+    </section>
+    <section class="layout B">
+      <h3>2、绝对定位，中间元素自适应</h3>
+      <div class="box">
+        <style>
+          .B .box {
+            position: relative;
+            height: 100px;
+          }
+
+          .B article {
+            position: absolute;
+          }
+
+          .B .left {
+            left: 0;
+            width: 300px;
+          }
+
+          .B .center {
+            left: 300px;
+            right: 300px;
+          }
+
+          .B .right {
+            right: 0;
+            width: 300px;
+          }
+        </style>
+        <article class="left">left</article>
+        <article class="right">right</article>
+        <article class="center">center</article>
+      </div>
+    </section>
+    <section class="layout C">
+      <h3>3、表格布局</h3>
+      <div class="box">
+        <style>
+          .C .box {
+            display: table;
+            width: 100%;
+          }
+
+          .C .left {
+            display: table-cell;
+            width: 300px;
+          }
+
+          .C .center {
+            display: table-cell;
+          }
+
+          .C .right {
+            display: table-cell;
+            width: 300px;
+          }
+        </style>
+        <article class="left">left</article>
+        <article class="center">center</article>
+        <article class="right">right</article>
+      </div>
+    </section>
+    <section class="layout D">
+      <h3>4、flex布局</h3>
+      <div class="box">
+        <style>
+          .D .box {
+            display: flex;
+          }
+
+          .D .left {
+            width: 300px;
+          }
+
+          .D .center {
+            flex: 1
+          }
+
+          .D .right {
+            width: 300px;
+          }
+        </style>
+        <article class="left">left</article>
+        <article class="center">center</article>
+        <article class="right">right</article>
+      </div>
+    </section>
+    <section class="layout E">
+      <h3>5、grid布局</h3>
+      <div class="box">
+        <style>
+          .E .box {
+            display: grid;
+            grid-template-columns: 300px auto 300px
+          }
+        </style>
+        <article class="left">left</article>
+        <article class="center">center</article>
+        <article class="right">right</article>
+      </div>
+    </section>
+    <section class="layout F">
+      <h3>6、calc计算</h3>
+      <div class="box">
+        <style>
+          .F .box article {
+            float: left;
+          }
+
+          .F .left {
+            width: 300px;
+          }
+
+          .F .center {
+            width: calc(100% - 600px)
+          }
+
+          .F .right {
+            width: 300px;
+          }
+        </style>
+        <article class="left">left</article>
+        <article class="center">center</article>
+        <article class="right">right</article>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
