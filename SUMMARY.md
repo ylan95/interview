@@ -37,7 +37,7 @@
   - [04 常见请求头](./04 HTTP/04 常见请求头.md)
   - [05 常见的响应头](./04 HTTP/05 常见的响应头.md)
   - [06 GET和POST的区别](./04 HTTP/06 GET和POST的区别.md)
-  - [07 HTTP2](./04 HTTP/07 HTTP2.md)
+  - [07 HTTP1.0、HTTP1.1、HTTP2的区别](./04 HTTP/07 HTTP1.0、HTTP1.1、HTTP2的区别.md)
   - [08 HTTPS](./04 HTTP/08 HTTPS.md)
   - [09 持久连接与管线化](./04 HTTP/09 持久连接与管线化.md)
   - [10 创建ajax](./04 HTTP/10 创建ajax.md)
