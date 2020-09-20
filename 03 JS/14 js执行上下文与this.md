@@ -32,7 +32,9 @@ obj1.f()()//obj1
 var b = obj1.f
 b()()//window
 ```
+
 3. 一旦箭头函数的this绑定成功，也无法被再次修改
+
 ```js
 function fn() {
     return () => {
