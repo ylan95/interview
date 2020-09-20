@@ -5,7 +5,7 @@
 比如：
 ```js
 var obj ={
-  fn:function(){console.log(this)}
+    fn:function(){console.log(this)}
 }
 obj.fn()//obj
 var fn = obj.fn
@@ -15,13 +15,13 @@ fn()//window
 比如:
 ```js
 var obj = {
-  name:'obj',
-  fn:function(){
-    return ()=>{console.log(this)}
-  }
+    name:'obj',
+    fn:function(){
+      return ()=>{console.log(this)}
+    }
 };
 var obj1 = {
-  name:'obj1',
+    name:'obj1',
 }
 obj.fn()()//obj
 var a = obj.fn
@@ -31,9 +31,7 @@ obj1.f()()//obj1
 var b = obj1.f
 b()()//window
 ```
-
-3. 一旦箭头函数的this绑定成功，也无法被再次修改
-
+3. 箭头函数的this一旦绑定成功，即最近的外层函数被运行，无法被再次修改
 ```js
 function fn() {
     return () => {
