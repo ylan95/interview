@@ -22,7 +22,7 @@
 - [03 js](_)
   - [01 数据类型判断](./03 JS/01 数据类型判断.md)
   - [02 浅拷贝&深拷贝](./03 JS/02 浅拷贝&深拷贝.md)
-  - [03 var 与 let、const 的区别](./03 JS/03 var与let、const 的区别.md)
+  - [03 var 与 let、const 的区别](./03 JS/03 var与let、const的区别.md)
   - [04 对比以及手写实现call、apply和bind](./03 JS/04 对比以及手写实现call、apply和bind.md)
   - [05 js 运行机制-事件循环](./03 JS/05 js运行机制-事件循环.md)
   - [06 原型链及继承](./03 JS/06 原型链及继承.md)
